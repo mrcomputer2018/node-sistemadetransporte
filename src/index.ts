@@ -3,7 +3,7 @@ import Moto from "./classes/Moto"
 import Veiculo from "./classes/Veiculo"
 
 const moto: Veiculo = new Moto()
-const caminhao = new Caminhao()
+const caminhao: Veiculo = new Caminhao()
 
 function simularViagem(objeto: Veiculo, distancia: number): void {
     console.log("\n==============================")
