@@ -14,3 +14,4 @@ function simularViagem(objeto: Veiculo, distancia: number): void {
 
 simularViagem (moto, 200)
 simularViagem (caminhao, 600)
+simularViagem (moto, 1000)
